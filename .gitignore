@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+api.zip
+.vscode
+/logs/default/*.log
+/logs/info/*.log
+/logs/error/*.log
+/logs/result/*.log
+/logs/http/*.log
+package-lock.json
+/assets
