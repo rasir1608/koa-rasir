@@ -200,13 +200,13 @@ let excel = async (ctx) => {
     return v.empCode
   })
   for (var i = 0; i < result.length; i++) {
-    const url = 'http://sfim-log.int.sfdc.com.cn:1080/fsserver/app/permruleUser'
+    const url = 'http://host:port/server/app/token'
     let obj = {
-      appsecret: '63560b42e510',
-      appkey: 'd0f0e645a710e919901fda410b7df7ea',
-      serviceName: 'ADD_PERMRULE_USER',
-      rid: '7b25e574ea084ed68d4c459196429f3d',
-      userName: 'test1',
+      appsecret: '',
+      appkey: '',
+      serviceName: '',
+      rid: '',
+      userName: '',
       isban: 'no',
       accounts: result[i]
     }
