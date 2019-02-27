@@ -1,7 +1,7 @@
 {
-  "name": "koa2-sf",
+  "name": "koa2-rasir",
   "version": "1.0.0",
-  "description": "koa2 sf",
+  "description": "koa2 rasir",
   "main": "app.js",
   "private": true,
   "scripts": {
